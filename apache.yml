@@ -1,6 +1,6 @@
 # apache.yml
 ---
-- hosts: all
+- hosts: 54.169.145.72
   become: True
   tasks:
     - name: Install packages
