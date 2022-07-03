@@ -1,6 +1,6 @@
 # apache.yml
 ---
-- hosts: 172.31.29.0
+- hosts: all
   become: True
   tasks:
     - name: Install packages
